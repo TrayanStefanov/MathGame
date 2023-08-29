@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+    <body>
+      <div class="start">
+        Видове задачи: <select id=typeOfEquations>
+          <option value=1>Събиране, 2 числа</option>
+          <option value=2>Изваждане, 2 числа</option>
+          <option value=3>Умножение, 2 числа</option>
+          <option value=4>Деление, 2 числа</option>
+          <option value=5>Всичко, 2 числа</option>
+        </select><br/>
+        Брой цифри:<select id=numberOfDigits>
+          <option value=1>1 цифра</option>
+          <option value=2>2 цифри</option>
+          <option value=3>3 цифри</option>
+        </select><br/>
+        <input type=button value="Старт" onclick="JavaScript: generateEquations();">
+      </div>
+        <p>Поредно верни</p>
+        <div id=correctCounter>0</div>
+        <div id="title"></div>
+        <div id="problem-box">
+          <div><p id="problem"></p></div>
+          <div style="text-align: center;">
+            <button id=0 style="background-color: red;
+            font-size: 60px;
+            width: 200px;
+            align-self: center;" onclick="JavaScript: checkAnswer(this.id);"></button>
+            <button id=1 style="background-color: red;
+            font-size: 60px;
+            width: 200px;
+            align-self: center;" onclick="JavaScript: checkAnswer(this.id);"></button>
+            <button id=2 style="background-color: red;
+            font-size: 60px;
+            width: 200px;
+            align-self: center;" onclick="JavaScript: checkAnswer(this.id);"></button>
+            <button id=3 style="background-color: red;
+            font-size: 60px;
+            width: 200px;
+            align-self: center;" onclick="JavaScript: checkAnswer(this.id);"></button>
+          </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/math.js"></script>
+</html>

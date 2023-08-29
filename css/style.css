@@ -1,0 +1,35 @@
+.body{
+  background-color: lightblue;
+  text-align: center;
+}
+
+
+#title {
+  font-size: 20pt;
+  font-family: Times New Roman;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-bottom: #000000 solid 1px;
+  margin-bottom: 10px;
+}
+
+
+#problem {
+  font-size: 60pt;
+  font-family: Times New Roman;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 1%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+
+
+.bddaton{
+  background-color: red;
+  font-size: 60px;
+  width: 200px;
+  align-self: center;
+}
